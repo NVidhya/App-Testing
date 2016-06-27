@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XmltoJava name="Selenium_Automation">
+      <suite suitename="Polls-BasicTests" classname="Login">
+     <parameter name="Polls-BasicTests" testcase="signup" param="testuser" param1="" param2="" dependson=""/> 
+	 <parameter name="Polls-BasicTests" testcase="login"  param="testuser" param1="" param2="" dependson="signup"/>
+	 <parameter name="Polls-BasicTests" testcase="CreatePoll" param="what is latest java version?" param1="Java 7" param2="Java 8" dependson="login"/>
+	 <parameter name="Polls-BasicTests" testcase="CreatePollvalidation" param="what is latest java version?" param1="" param2="" dependson="CreatePoll"/>
+	 <parameter name="Polls-BasicTests" testcase="Logout" param="" param1="" param2="" dependson="login"/>
+   </suite> 
+   </XmltoJava>
+
+
+
+
+
