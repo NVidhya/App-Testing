@@ -123,7 +123,7 @@ public class Suite implements ITestListener {
 		tng.run();
 	}
 	public static void main(String[] args) throws JAXBException, Exception {
-		System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/home/ubuntu/chromedriver");
 		System.setProperty("file.log","./log/log.log");
 		PropertyConfigurator.configure("./log4j.properties");
 		driver=new ChromeDriver();
